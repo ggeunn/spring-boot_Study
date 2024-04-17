@@ -22,7 +22,7 @@ public class LectureController {
         * */
 
         mv.addObject("member", new MemberDTO("이지은",20,'여',"서울시 도봉구"));
-        mv.addObject("hello","hello <h3>tymeleaf!!</h3>");
+        mv.addObject("hello","hello <h3>thymeleaf!!</h3>");
         mv.setViewName("/lecture/expression");
 
         return mv;
